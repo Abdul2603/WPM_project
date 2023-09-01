@@ -1,7 +1,17 @@
-import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lobster', cursive;
+  color: #fff;
+}
+.lead{
+  font-family: 'Lobster', cursive;
+  color: #fff;
+}
+.text{
+  font-family: 'Lobster', cursive;
+  color: #696969;
+  font-size: x-large;
 }
 
 legend {
@@ -36,6 +46,16 @@ legend {
   padding: 1rem;
 }
 
+.card-title {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.card-text {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
 .card-primary {
   border-color: #a2ced3;
   margin-bottom: 0.5rem;
@@ -48,11 +68,16 @@ legend {
   padding-bottom: 0.5em;
 }
 
+
 .review-header {
   background-color: #31727a;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
+}
+.reviewAuthor{
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 .review {
@@ -68,6 +93,13 @@ legend {
 
 h4 a, h4 a:hover {
   color: #fff;
+}
+.fa.fa-check{
+  color: #ffffff;
+}
+.card-text1 {
+  color: #ffbb00;
+  font-size: 20px;
 }
 
 h4 small {
@@ -86,10 +118,17 @@ h1 small {
 
 .facilities span.badge {
   margin-right: 2px;
+  background-color: #ffbb00;
 }
-
+.badge.badge-warning{
+  background-color: #ffbb00;
+}
+.card.card-primary.review-card{
+  color: #fcfcfc;
+}
 p {
   margin-bottom: 0.65rem;
+  font-size: 22px;
 }
 
 a {
@@ -104,4 +143,7 @@ body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
   background-color: #108a93;
+}
+.form-group.row{
+  margin-bottom: 1rem;
 }
