@@ -19,7 +19,7 @@ legend {
 }
 
 .navbar {
-  background-color: #ad1d28;
+  background-color: #ff0015;
   border-color: #911821;
 }
 
@@ -42,7 +42,7 @@ legend {
 }
 
 .card {
-  background-color: #469ea8;
+  background-color: #0d677173;
   padding: 1rem;
 }
 
@@ -57,20 +57,20 @@ legend {
 }
 
 .card-primary {
-  border-color: #a2ced3;
+  border-color: #8fc1c6;
   margin-bottom: 0.5rem;
 }
 
 .banner {
   margin-top: 4em;
-  border-bottom: 1px solid #469ea8;
+  border-bottom: 1px solid #04616c;
   margin-bottom: 1.5em;
   padding-bottom: 0.5em;
 }
 
 
 .review-header {
-  background-color: #31727a;
+  background-color: #0c535c;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
@@ -142,7 +142,7 @@ a:hover {
 body {
   font-family: "Cabin", Arial, sans-serif;
   color: #fff;
-  background-color: #108a93;
+  background-color: #1db09f;
 }
 .form-group.row{
   margin-bottom: 1rem;
